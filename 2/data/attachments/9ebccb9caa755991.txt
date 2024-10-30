@@ -1,0 +1,8 @@
+Открытие страницы: https://discord.com/login
+Проверка видимости элемента: ('xpath', '//input[@name="email"]')
+Элемент виден: ('xpath', '//input[@name="email"]')
+Ввод текста 'None' в элемент: ('xpath', '//input[@name="email"]')
+Поиск элемента: ('xpath', '//input[@name="email"]')
+Элемент найден: ('xpath', '//input[@name="email"]')
+Не удалось ввести текст 'None' в элемент: ('xpath', '//input[@name="email"]'). Ошибка: 'NoneType' object is not iterable
+Скриншот сохранён: /home/runner/work/DiscordFrontEndSelenium2/DiscordFrontEndSelenium2/screenshots/20241030-103937.png
