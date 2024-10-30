@@ -30,8 +30,8 @@ class LoginPage(BasePage):
     @allure.step("Вход в систему с зарегистрированными данными (аутентификация)")
     def login(self):
 
-        email = os.getenv('EMAIL')
-        password = os.getenv('PASSWORD')
+        email = 'o.pilugin@gmail.com' 
+        password = 'VV5DYUeX9,8!j)e'
 
         with allure.step("Ввод email"):
             self.input_text(LoginPage.EMAIL_INPUT, email)
