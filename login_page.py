@@ -29,7 +29,6 @@ class LoginPage(BasePage):
 
     @allure.step("Вход в систему с зарегистрированными данными (аутентификация)")
     def login(self):
-        load_dotenv('1.env')
 
         email = os.getenv('EMAIL')
         password = os.getenv('PASSWORD')
