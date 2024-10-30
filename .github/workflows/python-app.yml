@@ -49,7 +49,7 @@ jobs:
 
     - name: Test with pytest
       run: |
-        pytest test_DiscordFrontEnd.py --alluredir=allureresults
+        pytest test_DiscordFrontEnd.py --alluredir=allure-results
       continue-on-error: True
     
     - name: Load test report history
